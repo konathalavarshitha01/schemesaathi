@@ -146,8 +146,13 @@ from fastapi import Request
 from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 
-os.makedirs("data/receipts", exist_ok=True)
-app.mount("/receipts", StaticFiles(directory="data/receipts"), name="receipts")
+RECEIPTS = "data/receipts"
+try:
+    os.makedirs(RECEIPTS, exist_ok=True)
+except OSError:
+    RECEIPTS = "/tmp/receipts"
+    os.makedirs(RECEIPTS, exist_ok=True)
+app.mount("/receipts", StaticFiles(directory=RECEIPTS), name="receipts")
 
 PORTAL = """<!doctype html><html><head><meta charset="utf-8"><title>Demo Scheme Portal</title>
 <style>
@@ -216,5 +221,6 @@ def automation_run(body: AutoIn, request: Request):
         raise HTTPException(status_code=500, detail=r.stderr[-600:])
     receipt = r.stdout.strip().splitlines()[-1]
     return {"receipt_id": receipt, "screenshot": "/receipts/" + shot}
+
 
 

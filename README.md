@@ -38,6 +38,7 @@ Backend:
     python -m venv venv
     venv\Scripts\activate
     pip install -r requirements.txt
+    pip install playwright
     playwright install chromium
     python -m uvicorn main:app --reload --port 8001
 
@@ -54,3 +55,4 @@ Frontend:
 
 ## Impact
 Target: a user finds eligible schemes and becomes application-ready in under 2 minutes. User test results: (add your numbers here).
+

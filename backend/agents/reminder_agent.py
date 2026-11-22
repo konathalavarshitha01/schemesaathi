@@ -3,6 +3,8 @@ import os
 import uuid
 
 PATH = "data/reminders.json"
+if not os.access("data", os.W_OK):
+    PATH = "/tmp/reminders.json"
 
 def _load():
     if not os.path.exists(PATH):
@@ -21,3 +23,4 @@ def add_reminder(scheme_id, scheme_name, date, note=""):
 
 def list_reminders():
     return sorted(_load(), key=lambda r: r["date"])
+
