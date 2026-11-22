@@ -1,5 +1,6 @@
 ﻿# SchemeSaathi
-
+Live demo: https://schemesaathi-app.vercel.app
+API: https://schemesaathi-six.vercel.app/docs
 An AI agent that helps people in Andhra Pradesh and Telangana find government schemes they are eligible for, in Telugu, Hindi or English, by text or voice.
 
 Built for IDEA//FORGE (NxtWave Academy AI & Agents Hackathon).
