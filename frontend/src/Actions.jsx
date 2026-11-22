@@ -1,6 +1,6 @@
 ﻿import { useState, useEffect } from "react";
 
-const API = import.meta.env.VITE_API_URL || "http://127.0.0.1:8001";
+const API = window.location.hostname === "localhost" ? "http://127.0.0.1:8001" : "https://schemesaathi-six.vercel.app";
 
 export function Reminders() {
   const [items, setItems] = useState([]);

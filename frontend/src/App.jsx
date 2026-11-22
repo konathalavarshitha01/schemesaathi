@@ -3,7 +3,7 @@ import "./App.css";
 import Actions, { Reminders } from "./Actions";
 import VoiceBar, { speak } from "./Voice";
 
-const API = import.meta.env.VITE_API_URL || "http://127.0.0.1:8001";
+const API = window.location.hostname === "localhost" ? "http://127.0.0.1:8001" : "https://schemesaathi-six.vercel.app";
 
 const T = {
   en: {
