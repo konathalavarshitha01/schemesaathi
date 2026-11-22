@@ -103,8 +103,7 @@ def extract_profile(message, existing=None):
 
 # ---- bare number reply (e.g. "varshitha 18") counts as age when age is missing ----
 _prev_extract = extract_profile
-BARE_AGE = re.compile(r"(?<![\d,.])(\d{1,2})(?![\d,.]|\s*(?:lakhs?|lacs?))", re.I)
-
+BARE_AGE = re.compile(r"(?<![\d,.])(\d{1,2})(?!\d)(?![.,]\d)(?!\s*(?:lakhs?|lacs?|lks?|thousand|k)\b)", re.I)
 def extract_profile(message, existing=None):
     profile = _prev_extract(message, existing)
     if profile.get("age") is None:
