@@ -1,0 +1,383 @@
+[
+  {
+    "id": "pm-kisan",
+    "name": "PM-KISAN",
+    "category": "subsidy",
+    "benefit": "Rs 6,000 per year in 3 installments for farmer families",
+    "eligibility": {
+      "min_age": null,
+      "max_age": null,
+      "max_income": null,
+      "castes": [],
+      "occupations": [
+        "farmer"
+      ],
+      "gender": null
+    },
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "where_to_get": "UIDAI / Aadhaar centre"
+      },
+      {
+        "name": "Land ownership records",
+        "where_to_get": "Mandal revenue office / Meebhoomi (AP) / Dharani (TS)"
+      },
+      {
+        "name": "Bank passbook",
+        "where_to_get": "Your bank branch"
+      }
+    ],
+    "deadline": null,
+    "official_link": "https://pmkisan.gov.in"
+  },
+  {
+    "id": "pmjay",
+    "name": "Ayushman Bharat PM-JAY",
+    "category": "welfare",
+    "benefit": "Health cover of Rs 5 lakh per family per year",
+    "eligibility": {
+      "min_age": null,
+      "max_age": null,
+      "max_income": 300000,
+      "castes": [],
+      "occupations": [],
+      "gender": null
+    },
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "where_to_get": "UIDAI / Aadhaar centre"
+      },
+      {
+        "name": "Ration card",
+        "where_to_get": "Civil supplies office / MeeSeva"
+      }
+    ],
+    "deadline": null,
+    "official_link": "https://pmjay.gov.in",
+    "note": "Real eligibility is decided from government beneficiary lists. Check on the official site."
+  },
+  {
+    "id": "nsp-post-matric-sc",
+    "name": "Post Matric Scholarship for SC Students",
+    "category": "scholarship",
+    "benefit": "Scholarship support for post-matric courses",
+    "eligibility": {
+      "min_age": null,
+      "max_age": null,
+      "max_income": 250000,
+      "castes": [
+        "SC"
+      ],
+      "occupations": [
+        "student"
+      ],
+      "gender": null
+    },
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "where_to_get": "UIDAI / Aadhaar centre"
+      },
+      {
+        "name": "Caste certificate",
+        "where_to_get": "MeeSeva / Sachivalayam"
+      },
+      {
+        "name": "Income certificate",
+        "where_to_get": "MeeSeva / Sachivalayam"
+      },
+      {
+        "name": "Previous year marksheet",
+        "where_to_get": "Your school / college"
+      },
+      {
+        "name": "Admission proof",
+        "where_to_get": "Your college"
+      },
+      {
+        "name": "Bank passbook",
+        "where_to_get": "Your bank branch"
+      }
+    ],
+    "deadline": null,
+    "official_link": "https://scholarships.gov.in"
+  },
+  {
+    "id": "nsp-post-matric-st",
+    "name": "Post Matric Scholarship for ST Students",
+    "category": "scholarship",
+    "benefit": "Scholarship support for post-matric courses",
+    "eligibility": {
+      "min_age": null,
+      "max_age": null,
+      "max_income": 250000,
+      "castes": [
+        "ST"
+      ],
+      "occupations": [
+        "student"
+      ],
+      "gender": null
+    },
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "where_to_get": "UIDAI / Aadhaar centre"
+      },
+      {
+        "name": "Caste certificate",
+        "where_to_get": "MeeSeva / Sachivalayam"
+      },
+      {
+        "name": "Income certificate",
+        "where_to_get": "MeeSeva / Sachivalayam"
+      },
+      {
+        "name": "Previous year marksheet",
+        "where_to_get": "Your school / college"
+      },
+      {
+        "name": "Admission proof",
+        "where_to_get": "Your college"
+      },
+      {
+        "name": "Bank passbook",
+        "where_to_get": "Your bank branch"
+      }
+    ],
+    "deadline": null,
+    "official_link": "https://scholarships.gov.in"
+  },
+  {
+    "id": "ccss",
+    "name": "Central Sector Scholarship for College and University Students",
+    "category": "scholarship",
+    "benefit": "Yearly scholarship for meritorious students from low-income families",
+    "eligibility": {
+      "min_age": null,
+      "max_age": null,
+      "max_income": 450000,
+      "castes": [],
+      "occupations": [
+        "student"
+      ],
+      "gender": null
+    },
+    "documents": [
+      {
+        "name": "Class 12 marksheet",
+        "where_to_get": "Your board / school"
+      },
+      {
+        "name": "Income certificate",
+        "where_to_get": "MeeSeva / Sachivalayam"
+      },
+      {
+        "name": "Aadhaar card",
+        "where_to_get": "UIDAI / Aadhaar centre"
+      },
+      {
+        "name": "Bank passbook",
+        "where_to_get": "Your bank branch"
+      },
+      {
+        "name": "Admission proof",
+        "where_to_get": "Your college"
+      }
+    ],
+    "deadline": null,
+    "official_link": "https://scholarships.gov.in"
+  },
+  {
+    "id": "pmuy",
+    "name": "PM Ujjwala Yojana",
+    "category": "subsidy",
+    "benefit": "Free LPG connection for women from poor households",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": null,
+      "max_income": 200000,
+      "castes": [],
+      "occupations": [],
+      "gender": "female"
+    },
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "where_to_get": "UIDAI / Aadhaar centre"
+      },
+      {
+        "name": "Ration card / BPL proof",
+        "where_to_get": "Civil supplies office / MeeSeva"
+      },
+      {
+        "name": "Bank passbook",
+        "where_to_get": "Your bank branch"
+      }
+    ],
+    "deadline": null,
+    "official_link": "https://www.pmuy.gov.in",
+    "note": "Meant for BPL-type households. Income figure here is only a rough filter."
+  },
+  {
+    "id": "ssy",
+    "name": "Sukanya Samriddhi Yojana",
+    "category": "welfare",
+    "benefit": "Savings account for a girl child's education and marriage costs",
+    "eligibility": {
+      "min_age": null,
+      "max_age": 10,
+      "max_income": null,
+      "castes": [],
+      "occupations": [],
+      "gender": "female"
+    },
+    "documents": [
+      {
+        "name": "Girl child's birth certificate",
+        "where_to_get": "Municipal / Panchayat office"
+      },
+      {
+        "name": "Parent or guardian ID and address proof",
+        "where_to_get": "Aadhaar / PAN / voter ID"
+      }
+    ],
+    "deadline": null,
+    "official_link": "https://www.indiapost.gov.in"
+  },
+  {
+    "id": "apy",
+    "name": "Atal Pension Yojana",
+    "category": "welfare",
+    "benefit": "Guaranteed monthly pension after age 60",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 40,
+      "max_income": null,
+      "castes": [],
+      "occupations": [],
+      "gender": null
+    },
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "where_to_get": "UIDAI / Aadhaar centre"
+      },
+      {
+        "name": "Savings bank account",
+        "where_to_get": "Your bank branch"
+      },
+      {
+        "name": "Mobile number",
+        "where_to_get": "-"
+      }
+    ],
+    "deadline": null,
+    "official_link": "https://www.npscra.nsdl.co.in",
+    "note": "Income tax payers are not eligible."
+  },
+  {
+    "id": "ap-post-matric-jnanabhumi",
+    "name": "AP Post Matric Scholarship (Jnanabhumi)",
+    "state": "AP",
+    "category": "scholarship",
+    "benefit": "Tuition fee reimbursement and maintenance support for polytechnic, ITI, degree and above courses",
+    "eligibility": {
+      "min_age": null,
+      "max_age": null,
+      "max_income": null,
+      "castes": [
+        "SC",
+        "ST",
+        "BC",
+        "OBC"
+      ],
+      "occupations": [
+        "student"
+      ],
+      "gender": null
+    },
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "where_to_get": "UIDAI / Aadhaar centre"
+      },
+      {
+        "name": "Caste certificate",
+        "where_to_get": "MeeSeva / Sachivalayam"
+      },
+      {
+        "name": "Income certificate",
+        "where_to_get": "MeeSeva / Sachivalayam"
+      },
+      {
+        "name": "Previous class marksheet",
+        "where_to_get": "Your school / college"
+      },
+      {
+        "name": "Admission or bonafide certificate",
+        "where_to_get": "Your college"
+      },
+      {
+        "name": "Aadhaar-linked bank passbook",
+        "where_to_get": "Your bank branch"
+      }
+    ],
+    "deadline": null,
+    "official_link": "https://jnanabhumi.ap.gov.in",
+    "note": "For Andhra Pradesh residents. Income limits differ by category and change often. Check Jnanabhumi before applying."
+  },
+  {
+    "id": "ts-post-matric-epass",
+    "name": "Telangana Post Matric Scholarship (ePASS)",
+    "state": "TS",
+    "category": "scholarship",
+    "benefit": "Tuition fee reimbursement and maintenance support for post-matric courses",
+    "eligibility": {
+      "min_age": null,
+      "max_age": null,
+      "max_income": null,
+      "castes": [
+        "SC",
+        "ST",
+        "BC",
+        "OBC"
+      ],
+      "occupations": [
+        "student"
+      ],
+      "gender": null
+    },
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "where_to_get": "UIDAI / Aadhaar centre"
+      },
+      {
+        "name": "Caste certificate",
+        "where_to_get": "MeeSeva"
+      },
+      {
+        "name": "Income certificate",
+        "where_to_get": "MeeSeva"
+      },
+      {
+        "name": "SSC (10th) hall ticket",
+        "where_to_get": "Your school / board"
+      },
+      {
+        "name": "Bonafide certificate",
+        "where_to_get": "Your college"
+      },
+      {
+        "name": "Bank passbook",
+        "where_to_get": "Your bank branch"
+      }
+    ],
+    "deadline": null,
+    "official_link": "https://telanganaepass.cgg.gov.in",
+    "note": "For Telangana residents. Income limits differ by category and change often. Check ePASS before applying."
+  }
+]

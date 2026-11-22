@@ -1,0 +1,5 @@
+fastapi==0.163.1
+uvicorn==0.54.0
+reportlab==5.1.0
+python-dotenv==1.2.4
+playwright==1.65.2

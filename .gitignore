@@ -1,0 +1,6 @@
+﻿venv/
+.env
+__pycache__/
+node_modules/
+backend/data/reminders.json
+backend/data/receipts/
